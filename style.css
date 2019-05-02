@@ -522,7 +522,7 @@ img{
 /* Questions */
 #questions{
   background-attachment: fixed !important;
-  background-image: url("assets/images/questions.jpg");
+  background-image: url("images/questions.jpg");
   background-repeat: repeat;
   background-size: cover;
   color: #ffffff;
@@ -615,33 +615,6 @@ img{
 	float: left;
 }
 
-.culture-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(https://www.solodev.com/assets/culture.jpg) top no-repeat;
-    height: 100%;
-    background-size: cover;
-    color: #fff;
-	  text-align: center;
-    padding: 250px 0px;
-}
-.culture-section h2, .culture-section h3, {
-    font-family: 'proxima-nova', sans-serif;
-}
-.culture-section h2 {
-    font-weight: 800;
-    font-size: 50px;
-}
-.culture-section h3 {
-    font-size: 25px;
-    font-weight: 700;
-    margin: 14px 0;
-    font-family: 'proxima-nova', sans-serif;
-    text-transform: capitalize;
-}
-.culture-section p {
-    margin: 36px auto;
-    font-size: 18px;
-    width: 75%;
-}
 .btn {
     font-size: 18px !Important;
 }
@@ -813,7 +786,7 @@ img{
 /* Analysis */
 #single-page-header{
   background-attachment: fixed !important;
-  background-image: url("assets/images/slider3.png");
+  background-image: url("images/slider3.png");
   background-repeat: repeat;
   background-size: cover;
   color: #ffffff;
