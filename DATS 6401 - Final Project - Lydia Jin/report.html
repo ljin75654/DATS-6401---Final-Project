@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-progressbar-3.3.4.css"/>
+    <link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+
+  <!-- Scroll to the top button -->
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+
+  <!-- Header section -->
+  <header id="header">
+    <!-- header bottom -->
+    <div class="header-a">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="header-b">
+              <div class="logo-home">
+                <a class="navbar-brand" href="index.html"><img src="images/home.jpg" alt="logo" width=40 height=35></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu section -->
+  <section id="menu-area">      
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dataset.html">Dataset</a></li>
+            <li><a href="analysis.html">Analysis</a></li>
+            <li class="active"><a href="report.html">Report</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Visualization <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="density_country.html">Density by Country</a></li>                
+                <li><a href="best_rated.html">Best Rated</a></li>
+                <li><a href="density_city.html">Density by City</a></li>
+                <li><a href="price_rating.html">Price/Rating</a></li>           
+              </ul>
+            </li>
+            <li><a href="contributors.html">Contributors</a></li>
+          </ul>                     
+        </div>
+      </div>     
+    </nav>
+  </section> 
+  
+  <!-- Header section -->
+  <section id="single-page-header">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-left">
+              <h2>Report</h2>
+              <p>Here, I report on the overall project. Like a typical report, I describe my processs of 
+			  thought and the conclusions reached.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-right">
+              <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Report</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Report section -->
+  <section id="report">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="report-page-area">
+            <div class="report-content">
+              <span style="color:#4396ff">Abstract</span>
+              <p>The restaurant industry is one of enormous competition. A combination of a large 
+			  number of restaurants placed in close proximity to each other, and the variety in 
+			  cuisine options creates a difficulty in entering and succeeding in this industry. For 
+			  restaurant owners, it is important to determine which restaurants are more likely to 
+			  succeed in their country or city. This project utilizes visualizations to display the 
+			  geographical distribution of cuisine types and describe the differences in ratings for 
+			  the best restaurants in the world. The aspects of this analysis that best determines 
+			  where restaurants are most likely to succeed are heavily focused on restaurant 
+			  distribution and cuisine type. This correlation is fairly obvious when looking at the 
+			  percentages of restaurants in each country and the percentages of cuisine types from 
+			  top-rated restaurants. This report will discuss the various objectives, requirements, 
+			  and conclusions explored in this project.</p>
+              <a class="report-home" href="Final Technical Report.pdf">Full Report</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Questions? section -->
+  <section id="questions">
+    <div class="questions-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="questions-area">
+              <h2 class="wow fadeInUp">Have any Questions?</h2>
+              <form action="" class="questions-form wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                <input type="text" placeholder="Enter Your E-mail..">
+                <button class="questions-btn" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-left">
+            <p>by Lydia Jin</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/slick.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/waypoints.js"></script>
+  <script src="js/jquery.counterup.js"></script>
+  <script type="text/javascript" src="js/wow.js"></script>
+  <script type="text/javascript" src="js/bootstrap-progressbar.js"></script>
+  <!-- Custon js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+    
+  </body>
+</html>

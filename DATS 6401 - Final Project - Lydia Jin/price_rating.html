@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-progressbar-3.3.4.css"/>
+    <link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+
+  <!-- Scroll to the top button -->
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+
+  <!-- Header section -->
+  <header id="header">
+    <!-- header bottom -->
+    <div class="header-a">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="header-b">
+              <div class="logo-home">
+                <a class="navbar-brand" href="index.html"><img src="images/home.jpg" alt="logo" width=40 height=35></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu section -->
+  <section id="menu-area">      
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dataset.html">Dataset</a></li>
+            <li><a href="analysis.html">Analysis</a></li>
+            <li><a href="report.html">Report</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Visualization <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="density_country.html">Density by Country</a></li>                
+                <li><a href="best_rated.html">Best Rated</a></li>
+                <li><a href="density_city.html">Density by City</a></li>
+                <li class="active"><a href="price_rating.html">Price/Rating</a></li>           
+              </ul>
+            </li>
+            <li><a href="contributors.html">Contributors</a></li>
+          </ul>                     
+        </div>
+      </div>     
+    </nav>
+  </section>
+  
+  <!-- Header section -->
+  <section id="single-page-header">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-left">
+              <h2>Price/Rating</h2>
+              <p>Here, I'm creating bar charts to look at average price and rating for each country.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-right">
+              <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Price/Rating</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Price/Rating section -->
+  <section id="p_r">
+    <div class="container">
+      <div class="row">
+		<div class="col-md-12">
+          <div class="title-area">
+            <h2 class="title">Average Price and Rating by Country</h2>
+			<p>Here, I'm interested in seeing if there is any correlation to be found between price 
+			and rating. Also, there may be an effect on these two features depending on the country, 
+			so it is important to make judgements based on previous information on restaurant density 
+			for each country.<strong> Click the image below for a closer look:</strong></p>
+		    <div class="gallery">
+			  <a target="_blank" href="images/price_rating.png">
+				<img src="images/price_rating.png" alt="Average Price and Rating" width="800" height="500">
+			  </a>
+			  <div class="desc">Average Price and Rating</div>
+			</div>
+		  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Questions? section -->
+  <section id="questions">
+    <div class="questions-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="questions-area">
+              <h2 class="wow fadeInUp">Have any Questions?</h2>
+              <form action="" class="questions-form wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                <input type="text" placeholder="Enter Your E-mail..">
+                <button class="questions-btn" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-left">
+            <p>by Lydia Jin</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/slick.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/waypoints.js"></script>
+  <script src="js/jquery.counterup.js"></script>
+  <script type="text/javascript" src="js/wow.js"></script>
+  <script type="text/javascript" src="js/bootstrap-progressbar.js"></script>
+  <!-- Custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+    
+  </body>
+</html>

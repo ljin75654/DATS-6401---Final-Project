@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-progressbar-3.3.4.css"/>
+    <link id="switcher" href="css/theme-color/default-theme.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>
+
+  <!-- Scroll to the top button -->
+  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+
+  <!-- Header section -->
+  <header id="header">
+    <!-- header bottom -->
+    <div class="header-a">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="header-b">
+              <div class="logo-home">
+                <a class="navbar-brand" href="index.html"><img src="images/home.jpg" alt="logo" width=40 height=35></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu section -->
+  <section id="menu-area">      
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dataset.html">Dataset</a></li>
+            <li><a href="analysis.html">Analysis</a></li>
+            <li><a href="report.html">Report</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Visualization <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li class="active"><a href="density_country.html">Density by Country</a></li>                
+                <li><a href="best_rated.html">Best Rated</a></li>
+                <li><a href="density_city.html">Density by City</a></li>
+                <li><a href="price_rating.html">Price/Rating</a></li>           
+              </ul>
+            </li>
+            <li><a href="contributors.html">Contributors</a></li>
+          </ul>                     
+        </div>
+      </div>     
+    </nav>
+  </section>
+  
+  <!-- Header section -->
+  <section id="single-page-header">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-left">
+              <h2>Density by Country</h2>
+              <p>Here, I'm creating Choropleth world maps to look at restaurant density by country.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-page-header-right">
+              <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Density by Country</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Density by Country section -->
+  <section id="density">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-area">
+            <h2 class="title">Density of Restaurants by Country</h2>
+            <p>The plot below shows the country locations and the number of restaurants for each. It 
+			becomes clear right away that India has a disproportionally large number of restaurants 
+			compared to the others.<img src="images/country_num.png" alt="alt text"></p>
+          </div>
+        </div>
+		<div class="col-md-12">
+          <div class="title-area">
+            <h2 class="title">Top 5 Cuisine (Density of Restaurant by Country)</h2>
+			<p>There are some quick conlusions to be made. It was made  
+			clear before that India has the highest overall density, but now we can see that it has the highest 
+			density of restaurants for all 5 of the most prevalent cuisines. In the case of the Mughlai 
+			cuisine, India is one of only two countries that serves it. There is a large disparity shown here 
+			between India and the other countries. But since we are only looking at 15 countries and the data doesn't 
+			account for all restaurants, it's still too early to make definitive conclusions.<strong> Click the 
+			images below for a closer look:</strong></p>
+		    <div class="gallery">
+			  <a target="_blank" href="images/country_num_indian.png">
+				<img src="images/country_num_indian.png" alt="Indian Cuisine" width="800" height="500">
+			  </a>
+			  <div class="desc">Density of Indian Cuisine Restaurants</div>
+			</div>
+
+			<div class="gallery">
+			  <a target="_blank" href="images/country_num_chinese.png">
+				<img src="images/country_num_chinese.png" alt="Chinese Cuisine" width="800" height="500">
+			  </a>
+			  <div class="desc">Density of Chinese Cuisine Restaurants</div>
+			</div>
+
+			<div class="gallery">
+			  <a target="_blank" href="images/country_num_ff.png">
+				<img src="images/country_num_ff.png" alt="Fast Food" width="800" height="500">
+			  </a>
+			  <div class="desc">Density of Fast Food Restaurants</div>
+			</div>
+			
+			<div class="gallery">
+			  <a target="_blank" href="images/country_num_italian.png">
+				<img src="images/country_num_italian.png" alt="Italian Cuisine" width="800" height="500">
+			  </a>
+			  <div class="desc">Density of Italian Cuisine Restaurants</div>
+			</div>
+
+			<div class="gallery">
+			  <a target="_blank" href="images/country_num_mughlai.png">
+				<img src="images/country_num_mughlai.png" alt="Mughlai Cuisine" width="800" height="500">
+			  </a>
+			  <div class="desc">Density of Mughlai Cuisine Restaurants</div>
+			</div>
+		  </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Questions? section -->
+  <section id="questions">
+    <div class="questions-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="questions-area">
+              <h2 class="wow fadeInUp">Have any Questions?</h2>
+              <form action="" class="questions-form wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                <input type="text" placeholder="Enter Your E-mail..">
+                <button class="questions-btn" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-left">
+            <p>by Lydia Jin</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/slick.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/waypoints.js"></script>
+  <script src="js/jquery.counterup.js"></script>
+  <script type="text/javascript" src="js/wow.js"></script>
+  <script type="text/javascript" src="js/bootstrap-progressbar.js"></script>  
+  <!-- Custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+    
+  </body>
+</html>
