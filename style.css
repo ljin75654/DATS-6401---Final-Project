@@ -60,7 +60,7 @@ img{
   position:absolute;
   left:50%;
   top:50%;
-  background-image:url(assets/images/loader.gif);
+  background-image:url(images/loader.gif);
   background-repeat:no-repeat;
   background-position:center;
   margin:-100px 0 0 -100px;
@@ -810,11 +810,7 @@ img{
 @-webkit-keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
 @keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
 
-/*--------------------*/
-/* PORTFOLIO PAGE */
-/*--------------------*/
-
-
+/* Analysis */
 #single-page-header{
   background-attachment: fixed !important;
   background-image: url("assets/images/slider3.png");
@@ -1013,11 +1009,7 @@ div.desc {
   text-align: center;
 }
 
-/*======================///////////////
-			START RESPONSIVE STYLE
-=====================///////////////////////*/
-
-
+/* Responsive Style */
 @media(max-width:1199px ){
 	#search-icon { 
 	  right: 4%;  
@@ -1038,7 +1030,6 @@ div.desc {
     height: auto;    
   }  
 }
-
 
 @media(max-width:991px ){
 	#menu-area #navbar {
@@ -1106,7 +1097,6 @@ div.desc {
     margin-top: 40px;
   }
 }
-
 
 @media(max-width:767px ){
   .header-bottom {    
@@ -1260,7 +1250,6 @@ div.desc {
 
 }
 
-
 @media(max-width:360px ){
   .login {    
       padding: 10px;    
@@ -1357,7 +1346,6 @@ div.desc {
   }
   
 } 
-
 
 @media(max-width:320px ){
 	#login-form .modal-dialog {  
