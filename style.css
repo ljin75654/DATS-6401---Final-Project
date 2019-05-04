@@ -522,7 +522,7 @@ img{
 /* Questions */
 #questions{
   background-attachment: fixed !important;
-  background-image: url("assets/images/questions.jpg");
+  background-image: url("images/questions.jpg");
   background-repeat: repeat;
   background-size: cover;
   color: #ffffff;
@@ -817,7 +817,7 @@ img{
 
 #single-page-header{
   background-attachment: fixed !important;
-  background-image: url("assets/images/slider3.png");
+  background-image: url("images/slider3.png");
   background-repeat: repeat;
   background-size: cover;
   color: #ffffff;
@@ -1012,11 +1012,6 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-
-/*======================///////////////
-			START RESPONSIVE STYLE
-=====================///////////////////////*/
-
 
 @media(max-width:1199px ){
 	#search-icon { 
