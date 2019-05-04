@@ -60,7 +60,7 @@ img{
   position:absolute;
   left:50%;
   top:50%;
-  background-image:url(images/loader.gif);
+  background-image:url(assets/images/loader.gif);
   background-repeat:no-repeat;
   background-position:center;
   margin:-100px 0 0 -100px;
@@ -522,7 +522,7 @@ img{
 /* Questions */
 #questions{
   background-attachment: fixed !important;
-  background-image: url("images/questions.jpg");
+  background-image: url("assets/images/questions.jpg");
   background-repeat: repeat;
   background-size: cover;
   color: #ffffff;
@@ -615,6 +615,33 @@ img{
 	float: left;
 }
 
+.culture-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(https://www.solodev.com/assets/culture.jpg) top no-repeat;
+    height: 100%;
+    background-size: cover;
+    color: #fff;
+	  text-align: center;
+    padding: 250px 0px;
+}
+.culture-section h2, .culture-section h3, {
+    font-family: 'proxima-nova', sans-serif;
+}
+.culture-section h2 {
+    font-weight: 800;
+    font-size: 50px;
+}
+.culture-section h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 14px 0;
+    font-family: 'proxima-nova', sans-serif;
+    text-transform: capitalize;
+}
+.culture-section p {
+    margin: 36px auto;
+    font-size: 18px;
+    width: 75%;
+}
 .btn {
     font-size: 18px !Important;
 }
@@ -783,10 +810,14 @@ img{
 @-webkit-keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
 @keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
 
-/* Analysis */
+/*--------------------*/
+/* PORTFOLIO PAGE */
+/*--------------------*/
+
+
 #single-page-header{
   background-attachment: fixed !important;
-  background-image: url("images/slider3.PNG");
+  background-image: url("assets/images/slider3.png");
   background-repeat: repeat;
   background-size: cover;
   color: #ffffff;
@@ -982,7 +1013,11 @@ div.desc {
   text-align: center;
 }
 
-/* Responsive Style */
+/*======================///////////////
+			START RESPONSIVE STYLE
+=====================///////////////////////*/
+
+
 @media(max-width:1199px ){
 	#search-icon { 
 	  right: 4%;  
@@ -995,10 +1030,15 @@ div.desc {
   .slide-article h1 {
     font-size: 40px;  
   }
+  .blog-news-title h2,
+  .blog-news-title h2 > a {  
+    font-size: 18px;    
+  }
   .main-slider {  
     height: auto;    
   }  
 }
+
 
 @media(max-width:991px ){
 	#menu-area #navbar {
@@ -1047,16 +1087,26 @@ div.desc {
   .slick-next {
     right: -10px;
   }
+  .blog-news-single {
+    margin-bottom: 30px;    
+  }
   .title-area {
     padding: 0 100px;
   }
+  .single-portfolio {
+    width: 33.33%;
+  }
   .single-item-content::after {  
     width: 87%;
+  }
+  .blog-side-bar {
+    margin-top: 50px;
   }
   .contact-area-right {
     margin-top: 40px;
   }
 }
+
 
 @media(max-width:767px ){
   .header-bottom {    
@@ -1111,6 +1161,20 @@ div.desc {
   .footer-right {
     text-align: center;
   }
+  .portfolio-menu {
+    padding: 0;
+  }
+  .portfolio-menu ul li {
+    margin: 0 3px 10px;
+    padding: 6px 10px;
+  }
+  .blog-single-tag {
+    text-align: center;
+  }
+  .blog-single-social {
+    text-align: center;
+    margin-top: 20px;
+  }
 
 }
 
@@ -1161,6 +1225,9 @@ div.desc {
   .why-choose-group .panel-body p {
     font-size: 14px;
   }
+  .subscrib-form {
+    width: 100%;
+  }
   .footer-left {
     text-align: center;
     margin-bottom: 20px;
@@ -1174,11 +1241,25 @@ div.desc {
   .overlay {
     padding: 50px 0;
   }
+  .single-portfolio {
+    width: 50%;
+  }
   .single-item-content::after {
     width: 85%;
   }
+  .portfolio-menu ul li {
+    padding: 4px 5px;
+    font-size: 12px;
+  }
+  .blog-archive-left .blog-news-img {
+    height: 320px;
+  }
+  .blog-navigation-prev {
+    margin-bottom: 10px;
+  }
 
 }
+
 
 @media(max-width:360px ){
   .login {    
@@ -1221,6 +1302,23 @@ div.desc {
     font-size: 12px;
     padding: 5px 8px;
   }
+  #testimonial .title-area {
+    padding: 0;
+  }
+  .subscribe-area h2 {
+    font-size: 25px;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+  }
+  .subscrib-form input {
+    font-size: 15px;
+    height: 40px;    
+  }
+  .subscribe-btn {
+    font-size: 15px;    
+    height: 40px;
+    width: 95px;
+  }
   #login-form .modal-dialog {  
     width: 320px;
   }
@@ -1230,9 +1328,19 @@ div.desc {
   .overlay {
     padding: 20px 0;
   }
+   .single-portfolio {
+    width: 100%;
+  }
   .single-item-content::after {
     left: 15px;
     width: 92%;
+  }
+  .portfolio-menu ul li {
+    padding: 4px 5px;
+    font-size: 12px;
+  }
+  .blog-archive-left .blog-news-img {
+    height: 250px;
   }
   .comments-form textarea {
     width: 100%;
@@ -1243,8 +1351,13 @@ div.desc {
   .header-contact ul li {
    border: none;
   }
+  .phone {
+    font-size: 12px;
+    width: 135%;
+  }
   
 } 
+
 
 @media(max-width:320px ){
 	#login-form .modal-dialog {  
@@ -1267,5 +1380,8 @@ div.desc {
   }
 	.single-item-content::after {   
     width: 91%;
+  }
+  .blog-archive-left .blog-news-img {
+    height: 220px;
   }
 }
