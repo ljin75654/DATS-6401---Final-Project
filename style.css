@@ -995,10 +995,6 @@ div.desc {
   .slide-article h1 {
     font-size: 40px;  
   }
-  .blog-news-title h2,
-  .blog-news-title h2 > a {  
-    font-size: 18px;    
-  }
   .main-slider {  
     height: auto;    
   }  
@@ -1051,20 +1047,11 @@ div.desc {
   .slick-next {
     right: -10px;
   }
-  .blog-news-single {
-    margin-bottom: 30px;    
-  }
   .title-area {
     padding: 0 100px;
   }
-  .single-portfolio {
-    width: 33.33%;
-  }
   .single-item-content::after {  
     width: 87%;
-  }
-  .blog-side-bar {
-    margin-top: 50px;
   }
   .contact-area-right {
     margin-top: 40px;
@@ -1124,20 +1111,6 @@ div.desc {
   .footer-right {
     text-align: center;
   }
-  .portfolio-menu {
-    padding: 0;
-  }
-  .portfolio-menu ul li {
-    margin: 0 3px 10px;
-    padding: 6px 10px;
-  }
-  .blog-single-tag {
-    text-align: center;
-  }
-  .blog-single-social {
-    text-align: center;
-    margin-top: 20px;
-  }
 
 }
 
@@ -1188,9 +1161,6 @@ div.desc {
   .why-choose-group .panel-body p {
     font-size: 14px;
   }
-  .subscrib-form {
-    width: 100%;
-  }
   .footer-left {
     text-align: center;
     margin-bottom: 20px;
@@ -1204,21 +1174,8 @@ div.desc {
   .overlay {
     padding: 50px 0;
   }
-  .single-portfolio {
-    width: 50%;
-  }
   .single-item-content::after {
     width: 85%;
-  }
-  .portfolio-menu ul li {
-    padding: 4px 5px;
-    font-size: 12px;
-  }
-  .blog-archive-left .blog-news-img {
-    height: 320px;
-  }
-  .blog-navigation-prev {
-    margin-bottom: 10px;
   }
 
 }
@@ -1264,23 +1221,6 @@ div.desc {
     font-size: 12px;
     padding: 5px 8px;
   }
-  #testimonial .title-area {
-    padding: 0;
-  }
-  .subscribe-area h2 {
-    font-size: 25px;
-    letter-spacing: 0;
-    margin-bottom: 25px;
-  }
-  .subscrib-form input {
-    font-size: 15px;
-    height: 40px;    
-  }
-  .subscribe-btn {
-    font-size: 15px;    
-    height: 40px;
-    width: 95px;
-  }
   #login-form .modal-dialog {  
     width: 320px;
   }
@@ -1290,19 +1230,9 @@ div.desc {
   .overlay {
     padding: 20px 0;
   }
-   .single-portfolio {
-    width: 100%;
-  }
   .single-item-content::after {
     left: 15px;
     width: 92%;
-  }
-  .portfolio-menu ul li {
-    padding: 4px 5px;
-    font-size: 12px;
-  }
-  .blog-archive-left .blog-news-img {
-    height: 250px;
   }
   .comments-form textarea {
     width: 100%;
@@ -1312,10 +1242,6 @@ div.desc {
   }
   .header-contact ul li {
    border: none;
-  }
-  .phone {
-    font-size: 12px;
-    width: 135%;
   }
   
 } 
@@ -1341,8 +1267,5 @@ div.desc {
   }
 	.single-item-content::after {   
     width: 91%;
-  }
-  .blog-archive-left .blog-news-img {
-    height: 220px;
   }
 }
